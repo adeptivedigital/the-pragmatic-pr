@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import {Navigation, Autoplay} from 'swiper';
+// eslint-disable-next-line import/no-unresolved
 import {Swiper, SwiperSlide} from 'swiper/react';
 import imageUrlBuilder from "@sanity/image-url";
 import styled from "styled-components";

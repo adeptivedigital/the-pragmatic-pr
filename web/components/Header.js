@@ -60,8 +60,10 @@ Header.propTypes = {
   logo: PropTypes.shape({
     asset: PropTypes.shape({
       url: PropTypes.string,
+      extension: PropTypes.string,
     }),
     logo: PropTypes.string,
+    title: PropTypes.string,
   }),
 }
 

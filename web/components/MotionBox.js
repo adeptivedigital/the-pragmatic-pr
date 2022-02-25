@@ -1,4 +1,5 @@
 import React, {useContext, useMemo} from "react";
+import PropTypes from "prop-types";
 import {motion} from "framer-motion";
 import {IntersectionContext} from "./IntersectionObserver";
 
@@ -41,6 +42,13 @@ function MotionBox({
       {children}
     </motion.div>
   )
+}
+
+MotionBox.propTypes = {
+  children: PropTypes.arrayOf(PropTypes.node),
+  duration: PropTypes.number,
+  delayOrder: PropTypes.bool,
+  easing: PropTypes.array,
 }
 
 export default MotionBox

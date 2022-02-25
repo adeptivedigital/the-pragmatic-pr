@@ -1,4 +1,5 @@
 import React, {useContext, useEffect, useState} from "react";
+import PropTypes from "prop-types";
 import {useIntersection} from "react-use";
 import {GlobalContext} from "./GlobalStore";
 
@@ -34,3 +35,9 @@ export const IntersectionObserver = ({children, reset = false, id}) => {
     </IntersectionContext.Provider>
   );
 };
+
+IntersectionObserver.propTypes = {
+  children: PropTypes.arrayOf(PropTypes.node),
+  reset: PropTypes.bool,
+  id: PropTypes.string,
+}
