@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b50de2fa-982a-4d3b-9e8d-87b0a7f5be33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/contactUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/socialMedia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/specialisation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/specialisations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/sponsor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/sponsors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studio/schemas/objects/whoWeAre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/GlobalStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/IntersectionObserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/MotionBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/Section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/icons/ChevronDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/icons/ChevronLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/icons/ChevronRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/sections/ContactUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/sections/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/sections/Specialisations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/sections/Sponsors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/sections/WhoWeAre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/typography/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/typography/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/typography/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/contact_us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/hero_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/bootstrap/components/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/bootstrap/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/bootstrap/components/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/bootstrap/variables.bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/utils/jump.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/config/.checksums" beforeDir="false" afterPath="$PROJECT_DIR$/studio/config/.checksums" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/sanity.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio/sanity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/schemas/documents/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/studio/schemas/documents/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/schemas/objects/cta.js" beforeDir="false" afterPath="$PROJECT_DIR$/studio/schemas/objects/cta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/schemas/objects/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/studio/schemas/objects/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/schemas/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/studio/schemas/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Cta.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Cta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/Hero.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/_document.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25YLxfum5NGiZxKOIoz509AZZKg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/public" />
+      <recent name="$PROJECT_DIR$/web/components/sections" />
+      <recent name="$PROJECT_DIR$/studio/schemas/objects" />
+      <recent name="$PROJECT_DIR$/web/components/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/components/sections" />
+      <recent name="$PROJECT_DIR$/studio/schemas/objects" />
+      <recent name="$PROJECT_DIR$/studio/schemas/documents" />
+      <recent name="$PROJECT_DIR$/web/styles/bootstrap" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b50de2fa-982a-4d3b-9e8d-87b0a7f5be33" name="Changes" comment="" />
+      <created>1645699321943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645699321943</updated>
+      <workItem from="1645699323876" duration="48260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
