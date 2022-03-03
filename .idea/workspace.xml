@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b50de2fa-982a-4d3b-9e8d-87b0a7f5be33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/GlobalStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/GlobalStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/components/IntersectionObserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/IntersectionObserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/MotionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/MotionBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/sections/Specialisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/Specialisations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/components/sections/Sponsors.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/sections/Sponsors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/bootstrap/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/bootstrap/components/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,11 @@
       <updated>1645699321943</updated>
       <workItem from="1645699323876" duration="48306000" />
       <workItem from="1645811233238" duration="442000" />
-      <workItem from="1645814555061" duration="314000" />
+      <workItem from="1645814555061" duration="566000" />
+      <workItem from="1646076263341" duration="8224000" />
+      <workItem from="1646142536545" duration="1318000" />
+      <workItem from="1646227195730" duration="4388000" />
+      <workItem from="1646303072361" duration="4806000" />
     </task>
     <servers />
   </component>

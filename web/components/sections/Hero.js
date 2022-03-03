@@ -30,6 +30,9 @@ const Heading = styled.h1`
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 53px;
+  @media (max-width: 992px) {
+    font-size: 24px;
+  }
 `
 
 const Img = styled.img`
@@ -57,17 +60,6 @@ const options = {
   },
   fpsLimit: 120,
   interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "push",
-      },
-      onHover: {
-        enable: true,
-        mode: "repulse",
-      },
-      resize: true,
-    },
     modes: {
       bubble: {
         distance: 400,

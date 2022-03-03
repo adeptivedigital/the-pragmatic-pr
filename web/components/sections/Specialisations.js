@@ -15,8 +15,14 @@ function urlFor(source) {
 
 const Items = styled.div`
   display: grid;
-  grid-template-columns: min-content min-content min-content min-content;
+  grid-template-columns: repeat(2, min-content);
   justify-content: space-between;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, min-content);
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(4, min-content);
+  }
 `
 
 const Item = styled.div`

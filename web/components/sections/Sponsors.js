@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {Button, Col, Container, Row} from "react-bootstrap";
-import {Navigation, Autoplay} from 'swiper';
+import {Col, Container, Row} from "react-bootstrap";
+import Slider from "react-slick";
 // eslint-disable-next-line import/no-unresolved
-import {Swiper, SwiperSlide} from 'swiper/react';
 import imageUrlBuilder from "@sanity/image-url";
-import styled from "styled-components";
 import {Heading} from "../typography";
 import Section from "../Section";
 import client from "../../client";
@@ -16,26 +14,42 @@ function urlFor(source) {
   return imageUrlBuilder(client).image(source)
 }
 
-const SwiperWrapper = styled.div`
-  position: relative;
-  padding: 0 50px;
-`
+function NextArrow({className, onClick}) {
+  return <ChevronRight className={className} onClick={onClick} />
+}
 
-const SwiperPrevButton = styled(Button)`
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  padding: 0.375rem !important;
-  margin-top: -21px;
-`
+function PrevArrow({className, onClick}) {
+  return <ChevronLeft className={className} onClick={onClick}/>
+}
 
-const SwiperNextButton = styled(Button)`
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  padding: 0.375rem !important;
-  margin-top: -21px;
-`
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  autoplaySpeed: 3000,
+  autoplay: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  nextArrow: <NextArrow />,
+  prevArrow: <PrevArrow />,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
 
 function Sponsors({title, items}) {
   return (
@@ -46,50 +60,15 @@ function Sponsors({title, items}) {
             <Heading size="sm" bold textAlign="center" style={{marginBottom: 55}}>{title}</Heading>
           </Col>
           <Col xs={12}>
-            <SwiperWrapper>
-              <SwiperPrevButton variant="link" className="swiper-prev-button">
-                <ChevronLeft />
-              </SwiperPrevButton>
-              <Swiper
-                modules={[Navigation, Autoplay]}
-                spaceBetween={50}
-                slidesPerView={5}
-                autoplay={{delay: 2000}}
-                speed={1000}
-                loop
-                navigation={{
-                  nextEl: ".swiper-next-button",
-                  prevEl: ".swiper-prev-button"
-                }}
-                breakpoints={{
-                  320: {
-                    slidesPerView: 2,
-                  },
-                  768: {
-                    slidesPerView: 3,
-                  },
-                  992: {
-                    slidesPerView: 4,
-                  },
-                  1200: {
-                    slidesPerView: 5,
-                  }
-                }}
-                pagination={{clickable: true}}
-                scrollbar={{draggable: true}}
-              >
-                {
-                  items.map((item) => (
-                    <SwiperSlide key={item._key}>
-                      <img src={item.image && urlFor(item.image).auto('format').fit('max').toString()} alt=""/>
-                    </SwiperSlide>
-                  ))
-                }
-              </Swiper>
-              <SwiperNextButton variant="link" className="swiper-next-button">
-                <ChevronRight />
-              </SwiperNextButton>
-            </SwiperWrapper>
+            <Slider {...settings}>
+              {
+                items.map((item) => (
+                  <div key={item._key}>
+                    <img src={item.image && urlFor(item.image).auto('format').fit('max').toString()} alt=""/>
+                  </div>
+                ))
+              }
+            </Slider>
           </Col>
         </Row>
       </Container>
@@ -100,6 +79,17 @@ function Sponsors({title, items}) {
 Sponsors.propTypes = {
   title: PropTypes.string,
   items: PropTypes.arrayOf(PropTypes.object),
+  onClick: PropTypes.func
+}
+
+NextArrow.propTypes = {
+  onClick: PropTypes.func,
+  className: PropTypes.string,
+}
+
+PrevArrow.propTypes = {
+  onClick: PropTypes.func,
+  className: PropTypes.string,
 }
 
 export default Sponsors

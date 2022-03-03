@@ -22,7 +22,7 @@ const Card = styled.div`
   padding: 30px 34px;
   background-image: url(${({backgroundImage}) => backgroundImage});
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   overflow: hidden;
   :before {
     content: "";

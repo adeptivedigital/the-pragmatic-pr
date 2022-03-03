@@ -1,7 +1,7 @@
 @import "bootstrap/variables.bootstrap";
 @import "~bootstrap/scss/bootstrap";
-@import "swiper/scss";
-
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
 @import "bootstrap/components";
 
 html, body, * {

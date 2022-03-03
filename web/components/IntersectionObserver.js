@@ -1,20 +1,21 @@
 import React, {useContext, useEffect, useState} from "react";
 import PropTypes from "prop-types";
-import {useIntersection} from "react-use";
 import {GlobalContext} from "./GlobalStore";
+import {useInView} from "react-intersection-observer";
 
 export const IntersectionContext = React.createContext({inView: true});
 
 export const IntersectionObserver = ({children, reset = false, id}) => {
-  const [inView, setInView] = useState(false);
-  const intersectionRef = React.useRef(null);
+  const [inView1, setInView] = useState(false);
   const {setState} = useContext(GlobalContext);
-  const intersection = useIntersection(intersectionRef, {
-    threshold: 0
+  const {ref, inView, entry} = useInView({
+    threshold: .3,
   });
 
+  console.log("entry:", {id, entry})
+
   useEffect(() => {
-    const inViewNow = intersection && intersection.intersectionRatio > 0;
+    const inViewNow = entry && entry.isIntersecting;
     if (inViewNow) {
       setState({
         inView,
@@ -22,14 +23,17 @@ export const IntersectionObserver = ({children, reset = false, id}) => {
       })
       return setInView(inViewNow);
     } else if (reset) {
+      setState({
+        inView,
+        id
+      })
       return setInView(false);
     }
-  }, [intersection, reset]);
-
+  }, [entry, id]);
 
   return (
-    <IntersectionContext.Provider value={{inView}}>
-      <div ref={intersectionRef}>
+    <IntersectionContext.Provider value={{inView: inView1}}>
+      <div ref={ref}>
         {children}
       </div>
     </IntersectionContext.Provider>
